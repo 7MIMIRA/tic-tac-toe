@@ -1,5 +1,6 @@
 # Tic Tac Toe
-Terminal based two player Tic-Tac-Toe game written in C++
+Terminal based two player Tic-Tac-Toe game written in C++  
+<img src="./tic-tac-toe.svg" width="90%">  
 
 ## Building the project
 ### Clone the repository
