@@ -32,7 +32,10 @@ So if you want to place your piece on the top left you would enter in **00** whe
 **11** would place it in the center.  
 **20** would place it on the bottom left.  
 
-The game currently handles row, column, major and minor diagonal win conditions for both players as well as ties.
+#### The game currently handles:
+- Row, column, major and minor diagonal win conditions for both players as well as ties
+- Prompting player for another entry if previous selection is unavailable
+- Player input in the format of **xx** where **x** is a whole number (i.e. 0, 1, 2, etc...)
 
 ## Possible Improvements:
 - Update input to not require row/col selection
@@ -43,3 +46,4 @@ The game currently handles row, column, major and minor diagonal win conditions 
   | row 1 |   a   |   b   |   c   |
   | row 2 |   d   |   e   |   f   |
   | row 3 |   g   |   h   |   i   |
+- Add graceful handling of unexpected player input
